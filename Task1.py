@@ -25,5 +25,6 @@ for i in range(m):
 print('Множество:', my_set_m)
 
 set_joint = my_set_n.intersection(my_set_m)
-set_joint = set_joint.sort()
-print(set_joint)
+list_join = list(map(int, set_joint))
+list_join.sort()
+print(list_join)
